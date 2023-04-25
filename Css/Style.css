@@ -196,7 +196,7 @@ header.scrolled .bottom-nav {
   margin-top: 190px;
   margin-bottom: 20px;
   min-width: 100%;
-  min-height: 6000px;
+  min-height: 600px;
   background-color: #e93636; /*Please change the background color after use*/
 }
 /* Css for the footer section */
@@ -228,14 +228,18 @@ footer .footerlogo {
 footer ul {
   list-style-type: none;
 }
-a {
+footer a {
   color: White;
   text-decoration: none;
   font-size: small;
   font-weight: 100;
 }
+footer .footerpagelink {
+  padding-bottom: 5%;
+}
 footer .CustomerService {
   text-align: center;
+  padding-bottom: 12%;
   padding-right: 6%;
 }
 footer .Connectwithus {

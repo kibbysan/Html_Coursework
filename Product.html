@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-</head>
-<body>
-    
-</body>
+    <!-- External Css Link -->
+    <link rel="stylesheet" href="Css/Style.css" />
+    <!-- External Javascript link -->
+    <script src="Javascript/javascript.js"></script>
+    <!-- Internal Css for table at footer -->
+    <style>
+      table {
+        padding-top: 20px;
+        height: 200px;
+        
+      }
+      footer h1 {
+        font-size: 15px;
+        font-weight: 300;
+        color: white;
+      }
+      .footerlogo {
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+        width: 80px;
+        transform: scale(0.6);
+      }
+      ul {
+        list-style-type: none;
+      }
+      a {
+        color: White;
+        text-decoration: none;
+        font-size: small;
+        font-weight: 100;
+      }
+      .CustomerService {
+        text-align: center;
+        padding-right: 6%;
+      }
+      .Connectwithus{
+        margin-left: 38%;
+      }
+      .Connectwithus ul a{
+        display: flex; /* Display the anchor element as a flex container */
+        align-items: center; /* Center the items vertically */
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation bar for the bottom header-->
+      <nav class="bottom-nav">
+        <div class="fContainer">
+          <div class="fItem-1"><a href="Product.html">Product</a></div>
+          <div class="fItem"><a href="Blog.html">Blog</a></div>
+          <div class="fItem"><a href="Aboutus.html">About Us</a></div>
+          <div class="fItem"><a href="Research.html">Research</a></div>
+        </div>
+      </nav>
+      <!--Navigation bar for top header-->
+      <nav class="top-nav">
+        <div class="HeaderLogo">
+          <a href="index.html">
+            <!--Loads the images to the navigation-->
+            <img src="Images/LogoIcons/Logo.png" alt="CamsKart" />
+          </a>
+        </div>
+        <div class="search-bar">
+          <!--Inline css  Style to Align the Search text-->
+          <input
+            type="text"
+            placeholder="Search Camskart"
+            style="text-align: center; padding-left: 35px"
+          />
+          <!-- The button made to submit for the search products -->
+          <button type="submit">
+            <i class="search">
+              <!-- Search icon added to the search bar -->
+              <img src="Images/LogoIcons/Search.png" alt="Search Icon" />
+            </i>
+          </button>
+        </div>
+        <!-- Division for the account login and signup icon -->
+        <div class="myaccount">
+          <a href="#myaccount.html">
+            <!--Loads the images to the navigation-->
+            <img src="Images//LogoIcons/account.svg" alt="MyAccount" class="Navbaricon" />
+          </a>
+        </div>
+        <!-- Div class for the cart icon -->
+        <div class="mycart">
+          <a href="#mycart.html">
+            <!--Loads the images to the navigation-->
+            <img src="Images/LogoIcons/cart.svg" alt="Cart" class="Navbaricon" />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="Pagecontent">
+      <div>
+        <h1>This is product page insert your content here and change the background color too. change min-height according to the page in external css</h1>
+
+      </div>
+   
+    </main>
+    <!-- Footer content of the page -->
+
+    <footer>
+      <table border="0" width="100%">
+        <tr>
+          <th class="footerlogo">
+            <div>
+              <img src="Images/LogoIcons/Logo.png" alt="Footer logo" />
+            </div>
+          </th>
+          <th><h1>Customer Service</h1></th>
+          <th><h1>Connect with us</h1></th>
+        </tr>
+
+        <tr>
+          <th>
+            <ul>
+              <li><a href="index.html" alt="CamskartHome">Home</a></li>
+              <li><a href="index.html" alt="Account">Account</a></li>
+              <li><a href="Product.html" alt="Product">Product</a></li>
+              <li><a href="Blog.html" alt="Blog">Blog</a></li>
+              <li><a href="Aboutus.html" alt="AboutUs">About us</a></li>
+              <li><a href="Research.html" alt="Research">Research</a></li>
+            </ul>
+          </th>
+
+          <th>
+            <div class="CustomerService">
+              <ul>
+                <li><a href="#" alt="Return Policy">Return Policy</a></li>
+                <li><a href="#" alt="Track Order">Track Order</a></li>
+                <li><a href="#" alt="Return Order">Return Order</a></li>
+              </ul>
+            </div>
+          </th>
+
+          <th>
+            <div class="Connectwithus">
+              <ul>
+                <li><a href="#" alt="Facebook"><img src="Images/LogoIcons/Facebook.svg" alt="facebook" style="width: 20px; padding: 5px;">facebook</a></li>
+                <li><a href="#" alt="Instagram"><img src="Images/LogoIcons/Instagram.svg" alt="instagram" style="width:20px; padding: 5px;">instagram</a></li>
+                <li><a href="#" alt="Twitter"><img src="Images/LogoIcons/Twitter.svg" alt="twitter" style="width:20px; padding:5px;">twitter</a></li>
+                <li><a href="#" alt="Email"><img src="Images/LogoIcons/mail.svg" alt="email" style="width:20px; padding:5px;">Mail</a></li>
+              </ul>
+            </div>
+          </th>
+        </tr>
+      </table>
+      <div style="filter: invert(1);">
+        <p style="text-align: right; padding-right:25px; font-size: 14px;">&copy;2023 All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
 </html>

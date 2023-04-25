@@ -191,13 +191,13 @@ header.scrolled .bottom-nav {
   transition: 0.3s all ease-in-out;
 }
 
-/* adjust main content position to avoid overlapping with header */
+/* Css for the main page contents that displays the content of the webpage */
 .Pagecontent{
   margin-top: 190px;
   margin-bottom: 20px;
   min-width: 100%;
-  height: 3000px;
-  background-color: #e93636;
+  min-height: 6000px;
+  background-color: #e93636; /*Please change the background color after use*/
 
 }
 /* Css for the footer section */

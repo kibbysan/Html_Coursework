@@ -225,7 +225,7 @@ footer .footerlogo {
   width: 80px;
   transform: scale(0.6);
 }
-footer ul {
+ul {
   list-style-type: none;
 }
 footer a {

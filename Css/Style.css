@@ -1,4 +1,7 @@
 /* Set background color and font family for the whole body */
+a{
+  text-decoration: none;
+}
 body {
   background-color: #f2f2f2;
   font-family: "Raleway", sans-serif;
@@ -103,7 +106,6 @@ header {
   transform: translateY(-50%);
   border: none;
   background-color: transparent;
-  color: #343140;
   font-size: 16px;
 }
 /* Css to convert the mouse cursor to pointer while hovering around the submit button icon */
@@ -197,7 +199,7 @@ header.scrolled .bottom-nav {
   margin-bottom: 20px;
   min-width: 100%;
   min-height: 4400px;
-  background-color: #e93636; /*Please change the background color after use*/
+  background-color: #f2f2f2; /*Please change the background color after use*/
 }
 /* Css for the footer section */
 footer {
@@ -301,6 +303,8 @@ footer .Connectwithus ul a p {
   width: 100%;
   overflow: hidden;
   border-radius: 20px;
+  box-shadow: 0 10px 10px #00000033;
+  
 }
 
 .slider_inner::after{

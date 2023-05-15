@@ -295,13 +295,12 @@ footer .Connectwithus ul a p {
 }
 
 /* Css for slider */
-.slider{
-  position: relative;
-}
+
 
 .slider_inner{
   width: 100%;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .slider_inner::after{
@@ -415,7 +414,7 @@ footer .Connectwithus ul a p {
 }
 
 .slider_dot__active{
-  background-color: lightskyblue;
+  background-color: #f2f2f2;
   cursor: default;
   pointer-events: none;
 }
@@ -445,5 +444,5 @@ footer .Connectwithus ul a p {
 }
 
 .slider_button:hover{
-  color: rgba(135, 206, 250, .75);
+  color: #f2f2f2;
 }

@@ -11,7 +11,7 @@ window.addEventListener('scroll', function() {
   });
 
 //Js code to make image slide
-  let onSlide = false;
+let onSlide = false;
 
 window.addEventListener("load", () => {
    autoSlide();
@@ -30,7 +30,7 @@ window.addEventListener("load", () => {
 function autoSlide() {
    setInterval(() => {
       slide(getItemActiveIndex() + 1);
-   }, 3000); // slide speed = 3s
+   }, 4000); // slide speed = 4s
 }
 
 function slide(toIndex) {

@@ -10,7 +10,7 @@ window.addEventListener('scroll', function() {
     }
   });
 
-
+//Js code to make image slide
   let onSlide = false;
 
 window.addEventListener("load", () => {

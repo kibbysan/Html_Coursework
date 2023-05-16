@@ -201,6 +201,229 @@ header.scrolled .bottom-nav {
   min-height: 4400px;
   background-color: #f2f2f2; /*Please change the background color after use*/
 }
+
+
+/* Css for the main page contents that displays the content of the webpage */
+.productdescriptionpagecontent {
+  margin-top: 190px;
+  margin-bottom: 20px;
+  min-width: 100%;
+  min-height: 600px;
+  background-color: #f2f2f2; /*Please change the background color after use*/
+}
+/* Product container */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+/* Product image */
+.product-image {
+  background-color: #f2f2f2;
+  flex: 1;
+  margin-right: 40px;
+
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  font-size: 30px;
+}
+
+/* Product details */
+.product-details {
+  flex: 1;
+}
+
+.product-details h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.product-details .product-discount{
+  font-weight: bold;
+}
+
+
+.product-details .product-price {
+  font-size: 2.5rem;
+}
+.product-details .product-price span{
+  font-size: 1.5rem;
+  text-decoration: line-through;
+
+} 
+
+ 
+
+
+.product-details .product-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Product buttons */
+.product-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-buttons button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background-color: #0d0d0d;
+}
+
+.buy-now {
+  background-color: #8c7c5d;
+}.specification-section {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.specification-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.specification-table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #333;
+}
+
+.specification-table th, .specification-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.specification-table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.specification-table td {
+  font-size: 16px;
+}
+ 
+
+.customer-reviews {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.customer-reviews h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.review {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.review img {
+  width: 50px;
+  height: 50%px;
+  border-radius: 50%;
+  margin-right: 20px;
+  
+}
+
+.review-author p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.review-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  font-size: 24px;
+  color: gold;
+  margin-right: 5px;
+}
+.similar-products {
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #0d0d0d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
 /* Css for the footer section */
 footer {
   background-color: #0d0d0d;
@@ -450,3 +673,4 @@ footer .Connectwithus ul a p {
 .slider_button:hover{
   color: #f2f2f2;
 }
+
